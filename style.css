@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+}
+
+:root {
+    --primary-color: #112240;
+    --secondary-color: #00ffb7;
+    --bg-color: #001842;
+}
+
+.container {
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+    min-height: 100vh;
+}
+
+.navigation {
+    background-color: var(--secondary-color);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    padding: 1rem;
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--primary-color);
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+    color: var(--bg-color);
+}
+
+.list-item-inline {
+    padding: 0rem 2rem 1rem 1rem;
+    display: inline;
+}
+
+h1 {
+    padding: 1.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.user-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.angle-input {
+    margin-top: 0.7rem;
+    width: 12rem;
+    padding: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    outline: none;
+    /* border: none; */
+    border: 2px solid var(--secondary-color);
+    border-bottom: 4px solid var(--secondary-color);
+
+}
+
+label {
+    margin-top: 0.7rem;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    /* padding: 0.5rem; */
+}
+
+button {
+    width: 12rem;
+    margin: 0.8rem;
+    padding: 0.5rem;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 00.5rem;
+    cursor: pointer;
+}
+.output{
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.5rem;
+}
+.footer{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin-top:1.rem;
+    position: sticky;
+    top: 100%;
+}
+.social {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+.social a {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+.quiz-form{
+    display: block
+}
+.question-container {
+    margin: 1rem;
+    font-size: larger;
+    padding: 1.2rem;
+    color: var(--primary-color);
+}
+
+.question-container p{
+    font-weight: 500;
+    text-align: start;
+    margin-bottom: 0.8rem;
+}
+.question-container label{
+    display: flex;
+    justify-self: start;
+    margin: 0.5rem;
+    padding: 0.5rem;  
+    font-weight: 500;
+    
+} 
